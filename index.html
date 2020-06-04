@@ -1,0 +1,1263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MOVIE</title>
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    <!-- fontgooogle -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700&display=swap" rel="stylesheet">
+    <!-- bootstrap4 -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+    <header class="container movieHeader">
+        <p class=" text-white text-right mb-0">
+            <i class="fas fa-phone-alt"></i>
+            <span class="mx-3 pr-2 border-right">0905407066</span>
+            <i class="fas fa-search"></i>
+        </p>
+        <nav class=" movieHeader__nav navbar navbar-expand-lg navbar-dark">
+            <a class="navbar-brand" href="#"><img src="./img/logo.svg" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#movieNav"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="movieNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">WHAT'S ON</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">SHORTCODE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">NEW</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">CONTACT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-toggle="modal" data-target="#movieModal">LOGIN</a>
+
+                    </li>
+                </ul>
+
+            </div>
+        </nav>
+    </header>
+    <section class="movieCarousel">
+        <div id="movieCarousel" class="carousel slide" data-ride="carousel">
+            <ol class="container carousel-indicators">
+                <li data-target="#movieCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#movieCarousel" data-slide-to="1"></li>
+                <li data-target="#movieCarousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./img/hero-1.jpg" class="d-block w-100" alt="hero-1">
+                    <div class=" container carousel-caption d-none d-md-block">
+                        <span>ACTION, ADVENTURE, FANTASY</span>
+                        <h2>End of the World: Part II
+                        </h2>
+                        <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum
+                            est notare quam littera gothica, quam nunc putamu.</p>
+                        <div class="carousel__trailer">
+                            <span>PG</span>
+                            <button><i class="fas fa-play"></i>PLAY TRAILER</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/hero-2.jpg" class="d-block w-100" alt="hero-2">
+                    <div class=" container carousel-caption d-none d-md-block">
+                        <span>ACTION, ADVENTURE, FANTASY</span>
+                        <h2>End of the World: Part II
+                        </h2>
+                        <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum
+                            est notare quam littera gothica, quam nunc putamu.</p>
+                        <div class="carousel__trailer">
+                            <span>PG</span>
+                            <button><i class="fas fa-play"></i>PLAY TRAILER</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/hero-3.jpg" class="d-block w-100" alt="hero-3">
+                    <div class=" container carousel-caption d-none d-md-block">
+                        <span>ACTION, ADVENTURE, FANTASY</span>
+                        <h2>End of the World: Part II
+                        </h2>
+                        <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum
+                            est notare quam littera gothica, quam nunc putamu.</p>
+                        <div class="carousel__trailer">
+                            <span>PG</span>
+                            <button><i class="fas fa-play"></i> PLAY TRAILER</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="newIn container">
+        <div class="newIn__h2">
+            <h2>NEW IN</h2>
+        </div>
+        <diV class="row">
+            <div class="col-12 col-md-6 col-lg-3">
+                <img src="./img/movie-1.jpg" alt="">
+                <div class="newIn__test">
+                    <p>The last postost</p>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3">
+                <img src="./img/movie-11.jpg" alt="">
+                <div class="newIn__test">
+                    <p>The last postost</p>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star  dark__star"></i>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3">
+                <img src="./img/movie-12.jpg" alt="">
+                <div class="newIn__test">
+                    <p>The last postost</p>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3">
+                <img src="./img/movie-13.jpg" alt="">
+                <div class="newIn__test">
+                    <p>The last postost</p>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star dark__star"></i>
+                    <i class="fa fa-star dark__star"></i>
+                </div>
+            </div>
+
+        </diV>
+    </section>
+    <section class="showtime container py-5">
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="home-tab" data-toggle="tab" href="#MON" role="tab" aria-controls="home"
+                    aria-selected="true">MON</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="profile-tab" data-toggle="tab" href="#TUE" role="tab" aria-controls="profile"
+                    aria-selected="false">TUE</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="contact-tab" data-toggle="tab" href="#TODAY" role="tab" aria-controls="contact"
+                    aria-selected="false">TODAY</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="contact-tab" data-toggle="tab" href="#THU" role="tab" aria-controls="contact"
+                    aria-selected="false">THU</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="contact-tab" data-toggle="tab" href="#FRI" role="tab" aria-controls="contact"
+                    aria-selected="false">FRI</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="contact-tab" data-toggle="tab" href="#SAT" role="tab" aria-controls="contact"
+                    aria-selected="false">SAT</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="contact-tab" data-toggle="tab" href="#SUN" role="tab" aria-controls="contact"
+                    aria-selected="false">SUN</a>
+            </li>
+        </ul>
+        <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="MON" role="tabpanel" aria-labelledby="home-tab">
+                <div class="tab__film row py-5">
+                    <div class="col-2">
+                        <!-- img fluid mac dinh trong the la 100% voi cha no -->
+                        <img src="./img/movie-6.jpg" class="img-fluid" alt="Responsive image">
+                    </div>
+                    <div class="col-10">
+                        <p class="row__p">ACTION, ADVENTURE, FANTASY
+                        </p>
+                        <h3>It's over</h3>
+                        <p class="row__p1">European mercenaries searching for black powder become embroiled in the
+                            defense of It's
+                            over of China against a horde of monstrous creatures.</p>
+                        <p class="row__p2"><a href="#">FULL SYNOPSIS <i class="fa fa-angle-right"></i></a>
+                        </p>
+                        <div class="row row__title">
+                            <div class="col-6">
+                                <i class="fa fa-clock"></i>
+                                <span>VIEWING TIMES</span>
+                                <button type="button" class="btn btn-secondary" disabled>14:45</button>
+                                <button type="button" class="btn btn-secondary">18:30</button>
+                                <button type="button" class="btn btn-secondary">20:30</button>
+                                <button type="button" class="btn btn-secondary">24:45</button>
+                            </div>
+                            <div class="row__min col-6 text-right">
+                                <span>105 MINS</span>
+                                <span>15</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab__film row py-1">
+                    <div class="col-2">
+                        <!-- img fluid mac dinh trong the la 100% voi cha no -->
+                        <img src="./img/movie-5.jpg" class="img-fluid" alt="Responsive image">
+                    </div>
+                    <div class="col-10">
+                        <p class="row__p">ACTION, ADVENTURE, SCI-FI
+                        </p>
+                        <h3>Captain America: The First Avenger</h3>
+                        <p class="row__p1">Steve Rogers, a rejected military soldier transforms into Captain America
+                            after taking a dose of a "Super-Soldier serum". But being Captain America comes at a price
+                            as he attempts to take down a war monger and a terrorist organization.</p>
+                        <p class="row__p2"><a href="#">FULL SYNOPSIS <i class="fa fa-angle-right"></i></a>
+                        </p>
+                        <div class="row row__title">
+                            <div class="col-6">
+                                <i class="fa fa-clock"></i>
+                                <span>VIEWING TIMES</span>
+                                <button type="button" class="btn btn-secondary" disabled>11:00</button>
+                                <button type="button" class="btn btn-secondary">16:00</button>
+                                <button type="button" class="btn btn-secondary">18:00</button>
+                                <button type="button" class="btn btn-secondary">21:00</button>
+                            </div>
+                            <div class="row__min col-6 text-right">
+                                <span>120 MINS</span>
+                                <span>PG</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab__film row py-5">
+                    <div class="col-2">
+                        <!-- img fluid mac dinh trong the la 100% voi cha no -->
+                        <img src="./img/movie-8.jpg" class="img-fluid" alt="Responsive image">
+                    </div>
+                    <div class="col-10">
+                        <p class="row__p">DRAMA
+                        </p>
+                        <h3>Fences</h3>
+                        <p class="row__p1">A working-class African-American father tries to raise his family in the
+                            1950s, while coming to terms with the events of his life.</p>
+                        <p class="row__p2"><a href="#">FULL SYNOPSIS <i class="fa fa-angle-right"></i></a>
+                        </p>
+                        <div class="row row__title">
+                            <div class="col-6">
+                                <i class="fa fa-clock"></i>
+                                <span>VIEWING TIMES</span>
+                                <button type="button" class="btn btn-secondary" disabled>10:00</button>
+                                <button type="button" class="btn btn-secondary" disabled>12:45</button>
+                                <button type="button" class="btn btn-secondary">17:00</button>
+                                <button type="button" class="btn btn-secondary">21:15</button>
+                            </div>
+                            <div class="row__min col-6 text-right">
+                                <span>135 MINS</span>
+                                <span>18</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab__film1 row py-1">
+                    <div class="col-2">
+                        <!-- img fluid mac dinh trong the la 100% voi cha no -->
+                        <img src="./img/movie-7.jpg" class="img-fluid" alt="Responsive image">
+                    </div>
+                    <div class="col-10">
+                        <p class="row__p">DRAMA
+                        </p>
+                        <h3>Daylight</h3>
+                        <p class="row__p1">A chronicle of the childhood, adolescence and burgeoning adulthood of a young
+                            black man growing up in a rough neighborhood of Miami.</p>
+                        <p class="row__p2"><a href="#">FULL SYNOPSIS <i class="fa fa-angle-right"></i></a>
+                        </p>
+                        <div class="row row__title">
+                            <div class="col-6">
+                                <i class="fa fa-clock"></i>
+                                <span>VIEWING TIMES</span>
+                                <button type="button" class="btn btn-secondary" disabled>11:00</button>
+                                <button type="button" class="btn btn-secondary" disabled>14:30</button>
+                                <button type="button" class="btn btn-secondary">20:00</button>
+                                <button type="button" class="btn btn-secondary">21:15</button>
+                            </div>
+                            <div class="row__min col-6 text-right">
+                                <span>117 MINS</span>
+                                <span>U</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="TUE" role="tabpanel" aria-labelledby="profile-tab">
+                <div class="tab__film row py-5">
+                    <div class="col-2">
+                        <!-- img fluid mac dinh trong the la 100% voi cha no -->
+                        <img src="./img/movie-7.jpg" class="img-fluid" alt="Responsive image">
+                    </div>
+                    <div class="col-10">
+                        <p class="row__p">DRAMA
+                        </p>
+                        <h3>Daylight</h3>
+                        <p class="row__p1">A chronicle of the childhood, adolescence and burgeoning adulthood of a young
+                            black man growing up in a rough neighborhood of Miami.</p>
+                        <p class="row__p2"><a href="#">FULL SYNOPSIS <i class="fa fa-angle-right"></i></a>
+                        </p>
+                        <div class="row row__title">
+                            <div class="col-6">
+                                <i class="fa fa-clock"></i>
+                                <span>VIEWING TIMES</span>
+                                <button type="button" class="btn btn-secondary" disabled>11:00</button>
+                                <button type="button" class="btn btn-secondary" disabled>14:30</button>
+                                <button type="button" class="btn btn-secondary">20:00</button>
+                                <button type="button" class="btn btn-secondary">21:15</button>
+                            </div>
+                            <div class="row__min col-6 text-right">
+                                <span>117 MINS</span>
+                                <span>U</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab__film row py-1">
+                    <div class="col-2">
+                        <!-- img fluid mac dinh trong the la 100% voi cha no -->
+                        <img src="./img/movie-5.jpg" class="img-fluid" alt="Responsive image">
+                    </div>
+                    <div class="col-10">
+                        <p class="row__p">ACTION, ADVENTURE, SCI-FI
+                        </p>
+                        <h3>Captain America: The First Avenger</h3>
+                        <p class="row__p1">Steve Rogers, a rejected military soldier transforms into Captain America
+                            after taking a dose of a "Super-Soldier serum". But being Captain America comes at a price
+                            as he attempts to take down a war monger and a terrorist organization.</p>
+                        <p class="row__p2"><a href="#">FULL SYNOPSIS <i class="fa fa-angle-right"></i></a>
+                        </p>
+                        <div class="row row__title">
+                            <div class="col-6">
+                                <i class="fa fa-clock"></i>
+                                <span>VIEWING TIMES</span>
+                                <button type="button" class="btn btn-secondary" disabled>11:00</button>
+                                <button type="button" class="btn btn-secondary">16:00</button>
+                                <button type="button" class="btn btn-secondary">18:00</button>
+                                <button type="button" class="btn btn-secondary">21:00</button>
+                            </div>
+                            <div class="row__min col-6 text-right">
+                                <span>120 MINS</span>
+                                <span>PG</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab__film row py-5">
+                    <div class="col-2">
+                        <!-- img fluid mac dinh trong the la 100% voi cha no -->
+                        <img src="./img/movie-6.jpg" class="img-fluid" alt="Responsive image">
+                    </div>
+                    <div class="col-10">
+                        <p class="row__p">ACTION, ADVENTURE, FANTASY
+                        </p>
+                        <h3>It's over</h3>
+                        <p class="row__p1">European mercenaries searching for black powder become embroiled in the
+                            defense of It's
+                            over of China against a horde of monstrous creatures.</p>
+                        <p class="row__p2"><a href="#">FULL SYNOPSIS <i class="fa fa-angle-right"></i></a>
+                        </p>
+                        <div class="row row__title">
+                            <div class="col-6">
+                                <i class="fa fa-clock"></i>
+                                <span>VIEWING TIMES</span>
+                                <button type="button" class="btn btn-secondary" disabled>14:45</button>
+                                <button type="button" class="btn btn-secondary">18:30</button>
+                                <button type="button" class="btn btn-secondary">20:30</button>
+                                <button type="button" class="btn btn-secondary">24:45</button>
+                            </div>
+                            <div class="row__min col-6 text-right">
+                                <span>105 MINS</span>
+                                <span>15</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab__film1 row py-1">
+                    <div class="col-2">
+                        <!-- img fluid mac dinh trong the la 100% voi cha no -->
+                        <img src="./img/movie-8.jpg" class="img-fluid" alt="Responsive image">
+                    </div>
+                    <div class="col-10">
+                        <p class="row__p">DRAMA
+                        </p>
+                        <h3>Fences</h3>
+                        <p class="row__p1">A working-class African-American father tries to raise his family in the
+                            1950s, while coming to terms with the events of his life.</p>
+                        <p class="row__p2"><a href="#">FULL SYNOPSIS <i class="fa fa-angle-right"></i></a>
+                        </p>
+                        <div class="row row__title">
+                            <div class="col-6">
+                                <i class="fa fa-clock"></i>
+                                <span>VIEWING TIMES</span>
+                                <button type="button" class="btn btn-secondary" disabled>10:00</button>
+                                <button type="button" class="btn btn-secondary" disabled>12:45</button>
+                                <button type="button" class="btn btn-secondary">17:00</button>
+                                <button type="button" class="btn btn-secondary">21:15</button>
+                            </div>
+                            <div class="row__min col-6 text-right">
+                                <span>135 MINS</span>
+                                <span>18</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="TODAY" role="tabpanel" aria-labelledby="contact-tab">
+                <div class="tab__film row py-5">
+                    <div class="col-2">
+                        <!-- img fluid mac dinh trong the la 100% voi cha no -->
+                        <img src="./img/movie-6.jpg" class="img-fluid" alt="Responsive image">
+                    </div>
+                    <div class="col-10">
+                        <p class="row__p">ACTION, ADVENTURE, FANTASY
+                        </p>
+                        <h3>It's over</h3>
+                        <p class="row__p1">European mercenaries searching for black powder become embroiled in the
+                            defense of It's
+                            over of China against a horde of monstrous creatures.</p>
+                        <p class="row__p2"><a href="#">FULL SYNOPSIS <i class="fa fa-angle-right"></i></a>
+                        </p>
+                        <div class="row row__title">
+                            <div class="col-6">
+                                <i class="fa fa-clock"></i>
+                                <span>VIEWING TIMES</span>
+                                <button type="button" class="btn btn-secondary" disabled>14:45</button>
+                                <button type="button" class="btn btn-secondary">18:30</button>
+                                <button type="button" class="btn btn-secondary">20:30</button>
+                                <button type="button" class="btn btn-secondary">24:45</button>
+                            </div>
+                            <div class="row__min col-6 text-right">
+                                <span>105 MINS</span>
+                                <span>15</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab__film row py-1">
+                    <div class="col-2">
+                        <!-- img fluid mac dinh trong the la 100% voi cha no -->
+                        <img src="./img/movie-5.jpg" class="img-fluid" alt="Responsive image">
+                    </div>
+                    <div class="col-10">
+                        <p class="row__p">ACTION, ADVENTURE, SCI-FI
+                        </p>
+                        <h3>Captain America: The First Avenger</h3>
+                        <p class="row__p1">Steve Rogers, a rejected military soldier transforms into Captain America
+                            after taking a dose of a "Super-Soldier serum". But being Captain America comes at a price
+                            as he attempts to take down a war monger and a terrorist organization.</p>
+                        <p class="row__p2"><a href="#">FULL SYNOPSIS <i class="fa fa-angle-right"></i></a>
+                        </p>
+                        <div class="row row__title">
+                            <div class="col-6">
+                                <i class="fa fa-clock"></i>
+                                <span>VIEWING TIMES</span>
+                                <button type="button" class="btn btn-secondary" disabled>11:00</button>
+                                <button type="button" class="btn btn-secondary">16:00</button>
+                                <button type="button" class="btn btn-secondary">18:00</button>
+                                <button type="button" class="btn btn-secondary">21:00</button>
+                            </div>
+                            <div class="row__min col-6 text-right">
+                                <span>120 MINS</span>
+                                <span>PG</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab__film row py-5">
+                    <div class="col-2">
+                        <!-- img fluid mac dinh trong the la 100% voi cha no -->
+                        <img src="./img/movie-7.jpg" class="img-fluid" alt="Responsive image">
+                    </div>
+                    <div class="col-10">
+                        <p class="row__p">DRAMA
+                        </p>
+                        <h3>Daylight</h3>
+                        <p class="row__p1">A chronicle of the childhood, adolescence and burgeoning adulthood of a young
+                            black man growing up in a rough neighborhood of Miami.</p>
+                        <p class="row__p2"><a href="#">FULL SYNOPSIS <i class="fa fa-angle-right"></i></a>
+                        </p>
+                        <div class="row row__title">
+                            <div class="col-6">
+                                <i class="fa fa-clock"></i>
+                                <span>VIEWING TIMES</span>
+                                <button type="button" class="btn btn-secondary" disabled>11:00</button>
+                                <button type="button" class="btn btn-secondary" disabled>14:30</button>
+                                <button type="button" class="btn btn-secondary">20:00</button>
+                                <button type="button" class="btn btn-secondary">21:15</button>
+                            </div>
+                            <div class="row__min col-6 text-right">
+                                <span>117 MINS</span>
+                                <span>U</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab__film1 row py-1">
+                    <div class="col-2">
+                        <!-- img fluid mac dinh trong the la 100% voi cha no -->
+                        <img src="./img/movie-8.jpg" class="img-fluid" alt="Responsive image">
+                    </div>
+                    <div class="col-10">
+                        <p class="row__p">DRAMA
+                        </p>
+                        <h3>Fences</h3>
+                        <p class="row__p1">A working-class African-American father tries to raise his family in the
+                            1950s, while coming to terms with the events of his life.</p>
+                        <p class="row__p2"><a href="#">FULL SYNOPSIS <i class="fa fa-angle-right"></i></a>
+                        </p>
+                        <div class="row row__title">
+                            <div class="col-6">
+                                <i class="fa fa-clock"></i>
+                                <span>VIEWING TIMES</span>
+                                <button type="button" class="btn btn-secondary" disabled>10:00</button>
+                                <button type="button" class="btn btn-secondary" disabled>12:45</button>
+                                <button type="button" class="btn btn-secondary">17:00</button>
+                                <button type="button" class="btn btn-secondary">21:15</button>
+                            </div>
+                            <div class="row__min col-6 text-right">
+                                <span>135 MINS</span>
+                                <span>18</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="THU" role="tabpanel" aria-labelledby="contact-tab">
+                <div class="tab__film row py-5">
+                    <div class="col-2">
+                        <!-- img fluid mac dinh trong the la 100% voi cha no -->
+                        <img src="./img/movie-5.jpg" class="img-fluid" alt="Responsive image">
+                    </div>
+                    <div class="col-10">
+                        <p class="row__p">ACTION, ADVENTURE, SCI-FI
+                        </p>
+                        <h3>Captain America: The First Avenger</h3>
+                        <p class="row__p1">Steve Rogers, a rejected military soldier transforms into Captain America
+                            after taking a dose of a "Super-Soldier serum". But being Captain America comes at a price
+                            as he attempts to take down a war monger and a terrorist organization.</p>
+                        <p class="row__p2"><a href="#">FULL SYNOPSIS <i class="fa fa-angle-right"></i></a>
+                        </p>
+                        <div class="row row__title">
+                            <div class="col-6">
+                                <i class="fa fa-clock"></i>
+                                <span>VIEWING TIMES</span>
+                                <button type="button" class="btn btn-secondary" disabled>11:00</button>
+                                <button type="button" class="btn btn-secondary">16:00</button>
+                                <button type="button" class="btn btn-secondary">18:00</button>
+                                <button type="button" class="btn btn-secondary">21:00</button>
+                            </div>
+                            <div class="row__min col-6 text-right">
+                                <span>120 MINS</span>
+                                <span>PG</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab__film row py-1">
+                    <div class="col-2">
+                        <!-- img fluid mac dinh trong the la 100% voi cha no -->
+                        <img src="./img/movie-7.jpg" class="img-fluid" alt="Responsive image">
+                    </div>
+                    <div class="col-10">
+                        <p class="row__p">DRAMA
+                        </p>
+                        <h3>Daylight</h3>
+                        <p class="row__p1">A chronicle of the childhood, adolescence and burgeoning adulthood of a young
+                            black man growing up in a rough neighborhood of Miami.</p>
+                        <p class="row__p2"><a href="#">FULL SYNOPSIS <i class="fa fa-angle-right"></i></a>
+                        </p>
+                        <div class="row row__title">
+                            <div class="col-6">
+                                <i class="fa fa-clock"></i>
+                                <span>VIEWING TIMES</span>
+                                <button type="button" class="btn btn-secondary" disabled>11:00</button>
+                                <button type="button" class="btn btn-secondary" disabled>14:30</button>
+                                <button type="button" class="btn btn-secondary">20:00</button>
+                                <button type="button" class="btn btn-secondary">21:15</button>
+                            </div>
+                            <div class="row__min col-6 text-right">
+                                <span>117 MINS</span>
+                                <span>U</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab__film row py-5">
+                    <div class="col-2">
+                        <!-- img fluid mac dinh trong the la 100% voi cha no -->
+                        <img src="./img/movie-6.jpg" class="img-fluid" alt="Responsive image">
+                    </div>
+                    <div class="col-10">
+                        <p class="row__p">ACTION, ADVENTURE, FANTASY
+                        </p>
+                        <h3>It's over</h3>
+                        <p class="row__p1">European mercenaries searching for black powder become embroiled in the
+                            defense of It's
+                            over of China against a horde of monstrous creatures.</p>
+                        <p class="row__p2"><a href="#">FULL SYNOPSIS <i class="fa fa-angle-right"></i></a>
+                        </p>
+                        <div class="row row__title">
+                            <div class="col-6">
+                                <i class="fa fa-clock"></i>
+                                <span>VIEWING TIMES</span>
+                                <button type="button" class="btn btn-secondary" disabled>14:45</button>
+                                <button type="button" class="btn btn-secondary">18:30</button>
+                                <button type="button" class="btn btn-secondary">20:30</button>
+                                <button type="button" class="btn btn-secondary">24:45</button>
+                            </div>
+                            <div class="row__min col-6 text-right">
+                                <span>105 MINS</span>
+                                <span>15</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab__film1 row py-1">
+                    <div class="col-2">
+                        <!-- img fluid mac dinh trong the la 100% voi cha no -->
+                        <img src="./img/movie-8.jpg" class="img-fluid" alt="Responsive image">
+                    </div>
+                    <div class="col-10">
+                        <p class="row__p">DRAMA
+                        </p>
+                        <h3>Fences</h3>
+                        <p class="row__p1">A working-class African-American father tries to raise his family in the
+                            1950s, while coming to terms with the events of his life.</p>
+                        <p class="row__p2"><a href="#">FULL SYNOPSIS <i class="fa fa-angle-right"></i></a>
+                        </p>
+                        <div class="row row__title">
+                            <div class="col-6">
+                                <i class="fa fa-clock"></i>
+                                <span>VIEWING TIMES</span>
+                                <button type="button" class="btn btn-secondary" disabled>10:00</button>
+                                <button type="button" class="btn btn-secondary" disabled>12:45</button>
+                                <button type="button" class="btn btn-secondary">17:00</button>
+                                <button type="button" class="btn btn-secondary">21:15</button>
+                            </div>
+                            <div class="row__min col-6 text-right">
+                                <span>135 MINS</span>
+                                <span>18</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="FRI" role="tabpanel" aria-labelledby="contact-tab">
+                <div class="tab__film row py-5">
+                    <div class="col-2">
+                        <!-- img fluid mac dinh trong the la 100% voi cha no -->
+                        <img src="./img/movie-5.jpg" class="img-fluid" alt="Responsive image">
+                    </div>
+                    <div class="col-10">
+                        <p class="row__p">ACTION, ADVENTURE, SCI-FI
+                        </p>
+                        <h3>Captain America: The First Avenger</h3>
+                        <p class="row__p1">Steve Rogers, a rejected military soldier transforms into Captain America
+                            after taking a dose of a "Super-Soldier serum". But being Captain America comes at a price
+                            as he attempts to take down a war monger and a terrorist organization.</p>
+                        <p class="row__p2"><a href="#">FULL SYNOPSIS <i class="fa fa-angle-right"></i></a>
+                        </p>
+                        <div class="row row__title">
+                            <div class="col-6">
+                                <i class="fa fa-clock"></i>
+                                <span>VIEWING TIMES</span>
+                                <button type="button" class="btn btn-secondary" disabled>11:00</button>
+                                <button type="button" class="btn btn-secondary">16:00</button>
+                                <button type="button" class="btn btn-secondary">18:00</button>
+                                <button type="button" class="btn btn-secondary">21:00</button>
+                            </div>
+                            <div class="row__min col-6 text-right">
+                                <span>120 MINS</span>
+                                <span>PG</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab__film row py-1">
+                    <div class="col-2">
+                        <!-- img fluid mac dinh trong the la 100% voi cha no -->
+                        <img src="./img/movie-6.jpg" class="img-fluid" alt="Responsive image">
+                    </div>
+                    <div class="col-10">
+                        <p class="row__p">ACTION, ADVENTURE, FANTASY
+                        </p>
+                        <h3>It's over</h3>
+                        <p class="row__p1">European mercenaries searching for black powder become embroiled in the
+                            defense of It's
+                            over of China against a horde of monstrous creatures.</p>
+                        <p class="row__p2"><a href="#">FULL SYNOPSIS <i class="fa fa-angle-right"></i></a>
+                        </p>
+                        <div class="row row__title">
+                            <div class="col-6">
+                                <i class="fa fa-clock"></i>
+                                <span>VIEWING TIMES</span>
+                                <button type="button" class="btn btn-secondary" disabled>14:45</button>
+                                <button type="button" class="btn btn-secondary">18:30</button>
+                                <button type="button" class="btn btn-secondary">20:30</button>
+                                <button type="button" class="btn btn-secondary">24:45</button>
+                            </div>
+                            <div class="row__min col-6 text-right">
+                                <span>105 MINS</span>
+                                <span>15</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab__film row py-5">
+                    <div class="col-2">
+                        <!-- img fluid mac dinh trong the la 100% voi cha no -->
+                        <img src="./img/movie-7.jpg" class="img-fluid" alt="Responsive image">
+                    </div>
+                    <div class="col-10">
+                        <p class="row__p">DRAMA
+                        </p>
+                        <h3>Daylight</h3>
+                        <p class="row__p1">A chronicle of the childhood, adolescence and burgeoning adulthood of a young
+                            black man growing up in a rough neighborhood of Miami.</p>
+                        <p class="row__p2"><a href="#">FULL SYNOPSIS <i class="fa fa-angle-right"></i></a>
+                        </p>
+                        <div class="row row__title">
+                            <div class="col-6">
+                                <i class="fa fa-clock"></i>
+                                <span>VIEWING TIMES</span>
+                                <button type="button" class="btn btn-secondary" disabled>11:00</button>
+                                <button type="button" class="btn btn-secondary" disabled>14:30</button>
+                                <button type="button" class="btn btn-secondary">20:00</button>
+                                <button type="button" class="btn btn-secondary">21:15</button>
+                            </div>
+                            <div class="row__min col-6 text-right">
+                                <span>117 MINS</span>
+                                <span>U</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab__film1 row py-1">
+                    <div class="col-2">
+                        <!-- img fluid mac dinh trong the la 100% voi cha no -->
+                        <img src="./img/movie-8.jpg" class="img-fluid" alt="Responsive image">
+                    </div>
+                    <div class="col-10">
+                        <p class="row__p">DRAMA
+                        </p>
+                        <h3>Fences</h3>
+                        <p class="row__p1">A working-class African-American father tries to raise his family in the
+                            1950s, while coming to terms with the events of his life.</p>
+                        <p class="row__p2"><a href="#">FULL SYNOPSIS <i class="fa fa-angle-right"></i></a>
+                        </p>
+                        <div class="row row__title">
+                            <div class="col-6">
+                                <i class="fa fa-clock"></i>
+                                <span>VIEWING TIMES</span>
+                                <button type="button" class="btn btn-secondary" disabled>10:00</button>
+                                <button type="button" class="btn btn-secondary" disabled>12:45</button>
+                                <button type="button" class="btn btn-secondary">17:00</button>
+                                <button type="button" class="btn btn-secondary">21:15</button>
+                            </div>
+                            <div class="row__min col-6 text-right">
+                                <span>135 MINS</span>
+                                <span>18</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="SAT" role="tabpanel" aria-labelledby="contact-tab">
+                <div class="tab__film row py-5">
+                    <div class="col-2">
+                        <!-- img fluid mac dinh trong the la 100% voi cha no -->
+                        <img src="./img/movie-6.jpg" class="img-fluid" alt="Responsive image">
+                    </div>
+                    <div class="col-10">
+                        <p class="row__p">ACTION, ADVENTURE, FANTASY
+                        </p>
+                        <h3>It's over</h3>
+                        <p class="row__p1">European mercenaries searching for black powder become embroiled in the
+                            defense of It's
+                            over of China against a horde of monstrous creatures.</p>
+                        <p class="row__p2"><a href="#">FULL SYNOPSIS <i class="fa fa-angle-right"></i></a>
+                        </p>
+                        <div class="row row__title">
+                            <div class="col-6">
+                                <i class="fa fa-clock"></i>
+                                <span>VIEWING TIMES</span>
+                                <button type="button" class="btn btn-secondary" disabled>14:45</button>
+                                <button type="button" class="btn btn-secondary">18:30</button>
+                                <button type="button" class="btn btn-secondary">20:30</button>
+                                <button type="button" class="btn btn-secondary">24:45</button>
+                            </div>
+                            <div class="row__min col-6 text-right">
+                                <span>105 MINS</span>
+                                <span>15</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab__film row py-1">
+                    <div class="col-2">
+                        <!-- img fluid mac dinh trong the la 100% voi cha no -->
+                        <img src="./img/movie-7.jpg" class="img-fluid" alt="Responsive image">
+                    </div>
+                    <div class="col-10">
+                        <p class="row__p">DRAMA
+                        </p>
+                        <h3>Daylight</h3>
+                        <p class="row__p1">A chronicle of the childhood, adolescence and burgeoning adulthood of a young
+                            black man growing up in a rough neighborhood of Miami.</p>
+                        <p class="row__p2"><a href="#">FULL SYNOPSIS <i class="fa fa-angle-right"></i></a>
+                        </p>
+                        <div class="row row__title">
+                            <div class="col-6">
+                                <i class="fa fa-clock"></i>
+                                <span>VIEWING TIMES</span>
+                                <button type="button" class="btn btn-secondary" disabled>11:00</button>
+                                <button type="button" class="btn btn-secondary" disabled>14:30</button>
+                                <button type="button" class="btn btn-secondary">20:00</button>
+                                <button type="button" class="btn btn-secondary">21:15</button>
+                            </div>
+                            <div class="row__min col-6 text-right">
+                                <span>117 MINS</span>
+                                <span>U</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab__film row py-5">
+                    <div class="col-2">
+                        <!-- img fluid mac dinh trong the la 100% voi cha no -->
+                        <img src="./img/movie-5.jpg" class="img-fluid" alt="Responsive image">
+                    </div>
+                    <div class="col-10">
+                        <p class="row__p">ACTION, ADVENTURE, SCI-FI
+                        </p>
+                        <h3>Captain America: The First Avenger</h3>
+                        <p class="row__p1">Steve Rogers, a rejected military soldier transforms into Captain America
+                            after taking a dose of a "Super-Soldier serum". But being Captain America comes at a price
+                            as he attempts to take down a war monger and a terrorist organization.</p>
+                        <p class="row__p2"><a href="#">FULL SYNOPSIS <i class="fa fa-angle-right"></i></a>
+                        </p>
+                        <div class="row row__title">
+                            <div class="col-6">
+                                <i class="fa fa-clock"></i>
+                                <span>VIEWING TIMES</span>
+                                <button type="button" class="btn btn-secondary" disabled>11:00</button>
+                                <button type="button" class="btn btn-secondary">16:00</button>
+                                <button type="button" class="btn btn-secondary">18:00</button>
+                                <button type="button" class="btn btn-secondary">21:00</button>
+                            </div>
+                            <div class="row__min col-6 text-right">
+                                <span>120 MINS</span>
+                                <span>PG</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab__film1 row py-1">
+                    <div class="col-2">
+                        <!-- img fluid mac dinh trong the la 100% voi cha no -->
+                        <img src="./img/movie-8.jpg" class="img-fluid" alt="Responsive image">
+                    </div>
+                    <div class="col-10">
+                        <p class="row__p">DRAMA
+                        </p>
+                        <h3>Fences</h3>
+                        <p class="row__p1">A working-class African-American father tries to raise his family in the
+                            1950s, while coming to terms with the events of his life.</p>
+                        <p class="row__p2"><a href="#">FULL SYNOPSIS <i class="fa fa-angle-right"></i></a>
+                        </p>
+                        <div class="row row__title">
+                            <div class="col-6">
+                                <i class="fa fa-clock"></i>
+                                <span>VIEWING TIMES</span>
+                                <button type="button" class="btn btn-secondary" disabled>10:00</button>
+                                <button type="button" class="btn btn-secondary" disabled>12:45</button>
+                                <button type="button" class="btn btn-secondary">17:00</button>
+                                <button type="button" class="btn btn-secondary">21:15</button>
+                            </div>
+                            <div class="row__min col-6 text-right">
+                                <span>135 MINS</span>
+                                <span>18</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="SUN" role="tabpanel" aria-labelledby="contact-tab">
+                <div class="tab__film row py-5">
+                    <div class="col-2">
+                        <!-- img fluid mac dinh trong the la 100% voi cha no -->
+                        <img src="./img/movie-5.jpg" class="img-fluid" alt="Responsive image">
+                    </div>
+                    <div class="col-10">
+                        <p class="row__p">ACTION, ADVENTURE, SCI-FI
+                        </p>
+                        <h3>Captain America: The First Avenger</h3>
+                        <p class="row__p1">Steve Rogers, a rejected military soldier transforms into Captain America
+                            after taking a dose of a "Super-Soldier serum". But being Captain America comes at a price
+                            as he attempts to take down a war monger and a terrorist organization.</p>
+                        <p class="row__p2"><a href="#">FULL SYNOPSIS <i class="fa fa-angle-right"></i></a>
+                        </p>
+                        <div class="row row__title">
+                            <div class="col-6">
+                                <i class="fa fa-clock"></i>
+                                <span>VIEWING TIMES</span>
+                                <button type="button" class="btn btn-secondary" disabled>11:00</button>
+                                <button type="button" class="btn btn-secondary">16:00</button>
+                                <button type="button" class="btn btn-secondary">18:00</button>
+                                <button type="button" class="btn btn-secondary">21:00</button>
+                            </div>
+                            <div class="row__min col-6 text-right">
+                                <span>120 MINS</span>
+                                <span>PG</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab__film row py-1">
+                    <div class="col-2">
+                        <!-- img fluid mac dinh trong the la 100% voi cha no -->
+                        <img src="./img/movie-6.jpg" class="img-fluid" alt="Responsive image">
+                    </div>
+                    <div class="col-10">
+                        <p class="row__p">ACTION, ADVENTURE, FANTASY
+                        </p>
+                        <h3>It's over</h3>
+                        <p class="row__p1">European mercenaries searching for black powder become embroiled in the
+                            defense of It's
+                            over of China against a horde of monstrous creatures.</p>
+                        <p class="row__p2"><a href="#">FULL SYNOPSIS <i class="fa fa-angle-right"></i></a>
+                        </p>
+                        <div class="row row__title">
+                            <div class="col-6">
+                                <i class="fa fa-clock"></i>
+                                <span>VIEWING TIMES</span>
+                                <button type="button" class="btn btn-secondary" disabled>14:45</button>
+                                <button type="button" class="btn btn-secondary">18:30</button>
+                                <button type="button" class="btn btn-secondary">20:30</button>
+                                <button type="button" class="btn btn-secondary">24:45</button>
+                            </div>
+                            <div class="row__min col-6 text-right">
+                                <span>105 MINS</span>
+                                <span>15</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab__film row py-5">
+                    <div class="col-2">
+                        <!-- img fluid mac dinh trong the la 100% voi cha no -->
+                        <img src="./img/movie-7.jpg" class="img-fluid" alt="Responsive image">
+                    </div>
+                    <div class="col-10">
+                        <p class="row__p">DRAMA
+                        </p>
+                        <h3>Daylight</h3>
+                        <p class="row__p1">A chronicle of the childhood, adolescence and burgeoning adulthood of a young
+                            black man growing up in a rough neighborhood of Miami.</p>
+                        <p class="row__p2"><a href="#">FULL SYNOPSIS <i class="fa fa-angle-right"></i></a>
+                        </p>
+                        <div class="row row__title">
+                            <div class="col-6">
+                                <i class="fa fa-clock"></i>
+                                <span>VIEWING TIMES</span>
+                                <button type="button" class="btn btn-secondary" disabled>11:00</button>
+                                <button type="button" class="btn btn-secondary" disabled>14:30</button>
+                                <button type="button" class="btn btn-secondary">20:00</button>
+                                <button type="button" class="btn btn-secondary">21:15</button>
+                            </div>
+                            <div class="row__min col-6 text-right">
+                                <span>117 MINS</span>
+                                <span>U</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab__film1 row py-1">
+                    <div class="col-2">
+                        <!-- img fluid mac dinh trong the la 100% voi cha no -->
+                        <img src="./img/movie-8.jpg" class="img-fluid" alt="Responsive image">
+                    </div>
+                    <div class="col-10">
+                        <p class="row__p">DRAMA
+                        </p>
+                        <h3>Fences</h3>
+                        <p class="row__p1">A working-class African-American father tries to raise his family in the
+                            1950s, while coming to terms with the events of his life.</p>
+                        <p class="row__p2"><a href="#">FULL SYNOPSIS <i class="fa fa-angle-right"></i></a>
+                        </p>
+                        <div class="row row__title">
+                            <div class="col-6">
+                                <i class="fa fa-clock"></i>
+                                <span>VIEWING TIMES</span>
+                                <button type="button" class="btn btn-secondary" disabled>10:00</button>
+                                <button type="button" class="btn btn-secondary" disabled>12:45</button>
+                                <button type="button" class="btn btn-secondary">17:00</button>
+                                <button type="button" class="btn btn-secondary">21:15</button>
+                            </div>
+                            <div class="row__min col-6 text-right">
+                                <span>135 MINS</span>
+                                <span>18</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="comingsoon">
+        <div class="overlay-black"></div>
+        <div class="comingsoon__content container py-5">
+            <div class="comingsoon__title">
+                <h1>COMING SOON</h1>
+            </div>
+            <div class="row">
+                <div class="comingsoon__text col-6">
+                    <p>DRAMA, THRILLER </p>
+                    <h2>Deepwater Horizon</h2>
+                    <span>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-calendar-alt"></i>
+                        30 September, 2017
+                    </span>
+                    <p class="comingsoon__p">A dramatization of the April 2010 disaster, when the offshore drilling
+                        rig Deepwater Horizon
+                        exploded and created the worst oil spill in U.S. history.</p>
+                    <p>
+                        <a href="#">MORE INFO <i class="fa fa-angle-right"></i></a>
+                    </p>
+                </div>
+                <div class="comingsoon__img col-6">
+                    <img src="./img/slide-3-video.png" class="img-fluid" alt="Responsive image">
+                    <i class="fa fa-play"></i>
+                </div>
+            </div>
+
+        </div>
+        <div class="all__img">
+            <div class="comingsoon__IMG container">
+                <div class="row">
+                    <div class="img__1 col-2">
+                        <img src="./img/movie-14.jpg" alt="">
+                        <h5>The comedian</h5>
+                        <span>
+                            21 November,2018</span>
+                    </div>
+                    <div class="img__1 col-2 ">
+                        <img src="./img/movie-9.jpg" alt="">
+                        <h5>Too fast</h5>
+                        <span>15 April,2017</span>
+                    </div>
+                    <div class="img__1 col-2 ">
+                        <img src="./img/movie-11.jpg" alt="">
+                        <h5>The Hangover: Part |||</h5>
+                        <span>30 September,2017</span>
+                    </div>
+                    <div class="img__1 col-2 ">
+                        <img src="./img/movie-12.jpg" alt="">
+                        <h5>Transformers: Age of Extinction</h5>
+                        <span>15 April,2018</span>
+                    </div>
+                    <div class="img__1 col-2 ">
+                        <img src="./img/movie-13.jpg" alt="">
+                        <h5>End of an Empire</h5>
+                        <span>19 October,2018</span>
+                    </div>
+                    <div class="img__1 col-2 ">
+                        <img src="./img/movie-10.jpg" alt="">
+                        <h5>Deepwater Horizon</h5>
+                        <span>07 September,2017</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact">
+        <div class="contact__content">
+            <p>Need help? Contact our support team on</p>
+            <p>0330 123 4567</p>
+        </div>
+    </section>
+    <footer class="footer__all">
+        <div class="footer__content container">
+            <div class="row">
+                <div class="footer__items col-3">
+                    <h6>GET IN TOUCH</h6>
+                    <ul>
+                        <li>
+                            <a href="#">FAQs</a>
+
+                        </li>
+                        <li>
+                            <a href="#">Give us feedback</a>
+
+                        </li>
+                        <li>
+                            <a href="#">Contact us</a>
+
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__items col-3">
+                    <h6>ABOUT MOVIE STAR</h6>
+                    <ul>
+                        <li>
+                            <a href="#">About us</a>
+                        </li>
+                        <li>
+                            <a href="#">Find us</a>
+                        </li>
+                        <li>
+                            <a href="#">Schedule</a>
+                        </li>
+                        <li>
+                            <a href="#">News</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__items col-3">
+                    <h6>LEGAL STUFF</h6>
+                    <ul>
+                        <li>
+                            <a href="#">Terms & Conditions</a>
+                        </li>
+                        <li>
+                            <a href="#">Privacy policy</a>
+                        </li>
+                        <li>
+                            <a href="#">Cookie policy</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__items col-3">
+                    <h6>CONNECT WITH US</h6>
+                    <ul>
+                        <li>
+                            <a href="#"><i class="fab fa-facebook-f"></i> Facebook</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fab fa-twitter"></i>Twitter</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fab fa-google-plus-g"></i>Google +</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__end">
+                <p>2017 © Movie Star / <a href="#">Web design by Klever media</a></p>
+            </div>
+
+
+
+
+
+        </div>
+    </footer>
+
+
+
+
+    <div class="modal" id="movieModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">LOGIN</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" placeholder="Enter email">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                                else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1"
+                                placeholder="Password">
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+                <!-- <div class="modal-footer">
+                  <button type="button" class="btn btn-primary">Save changes</button>
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div> -->
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
